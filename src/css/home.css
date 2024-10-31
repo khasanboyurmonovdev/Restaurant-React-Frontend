@@ -54,6 +54,14 @@
   flex-direction: column;
   align-items: center;
 }
+.homepage .popular-dishes-frame .category-title {
+  font-family: "Dancing Script";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 43px;
+}
+
 .homepage .popular-dishes-frame .popular-section .cards-frame {
   width: 100%;
   margin-top: 43px;
