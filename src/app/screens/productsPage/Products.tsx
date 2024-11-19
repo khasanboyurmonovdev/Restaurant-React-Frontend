@@ -108,7 +108,7 @@ export default function Products(props: ProductsProps) {
         <Stack flexDirection={"column"} alignItems={"center"}>
           <Stack className={"avatar-big-box"}>
             <Stack className="main-title">
-              <Box className={"title"}>Burak Restaurant</Box>
+              <Box className={"title"}>Szimpatikus Restaurant</Box>
               <Stack className="single-search-form">
                 <input
                   className="search-box"
@@ -347,7 +347,7 @@ export default function Products(props: ProductsProps) {
       <div className={"brands-logo"}>
         <Container>
           <Stack className="restaurant-logo">
-            <Box className={"family-brands"}>Our Family Brands</Box>
+            <Box className={"family-brands"}>Our Seoul Branches </Box>
             <Stack className={"restaurant-img"}>
               <CssVarsProvider>
                 {returantImg.map((ele, index) => {
@@ -368,7 +368,7 @@ export default function Products(props: ProductsProps) {
           <Stack className={"address-area"}>
             <Box className={"address-title"}>Our address</Box>
             <iframe
-              src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Andijan%20,%20Uzbekistan+(Burak%20Restaurant)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d50606.104870121744!2d126.90159272167969!3d37.55785430000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca385d259f48d%3A0x94edc7a6b7974041!2sSzimpatikus%20Seoul%20Station!5e0!3m2!1sen!2skr!4v1732036089655!5m2!1sen!2skr"
               referrerPolicy="no-referrer-when-downgrade"
             ></iframe>
           </Stack>
