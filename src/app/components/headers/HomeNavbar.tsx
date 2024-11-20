@@ -166,7 +166,7 @@ export default function HomeNavbar(props: HomeNavbarProps) {
         <Stack className={"header-frame"}>
           <Stack className={"detail"}>
             <Box className={"head-main-txt"}>
-              Everyday but Special 심퍼티쿠시{" "}
+              Everyday but Special 심퍼티쿠시
             </Box>
             <Box className={"wel-txt"}>파인캐주얼 레스토랑 </Box>
             <Box className={"service-txt"}> 운영시간: 11:00~22:00 </Box>
