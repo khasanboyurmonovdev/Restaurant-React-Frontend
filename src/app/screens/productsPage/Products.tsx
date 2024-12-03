@@ -33,10 +33,10 @@ const productsRetriever = createSelector(retrieveProducts, (products) => ({
 }));
 
 const returantImg = [
-  { restImg: "/img/gurme.webp" },
-  { restImg: "/img/seafood.webp" },
-  { restImg: "/img/sweets.webp" },
-  { restImg: "/img/doner.webp" },
+  { restImg: "/img/res1.jpg" },
+  { restImg: "/img/res2.jpg" },
+  { restImg: "/img/res3.jpg" },
+  { restImg: "/img/res4.jpg" },
 ];
 
 interface ProductsProps {
