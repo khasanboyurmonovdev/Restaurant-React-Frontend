@@ -36,7 +36,6 @@ function App() {
   const handleLogoutClick = (e: React.MouseEvent<HTMLElement>) => {
     setAnchorEl(e.currentTarget);
   };
-  const handleCloseLogout = () => setAnchorEl(null);
   const handleLogoutRequest = async () => {
     try {
       const member = new MemberService();
@@ -49,6 +48,10 @@ function App() {
       sweetErrorHandling(Messages.error1);
     }
   };
+
+  function handleCloseLogout(): void {
+    throw new Error("Function not implemented.");
+  }
 
   return (
     <>
