@@ -23,6 +23,7 @@
     "react-router-dom": "^5.1.9",
     "react-scripts": "5.0.0",
     "redux-logger": "^3.0.6",
+    "serve": "^14.2.4",
     "socket.io-client": "^4.7.5",
     "styled-components": "^5.3.5",
     "sweetalert2": "^11.4.23",
@@ -45,7 +46,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "start:prod": "npx serve -s build -l 80",
+    "start:prod": "serve -s build -l 80",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
